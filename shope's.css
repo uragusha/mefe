@@ -1,0 +1,13 @@
+.section{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* или любую другую высоту, которую вы хотите */
+
+}
+h1 { color: #ffffff; font-family: ‘Raleway’,sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; }
+.map-wrapper {
+    width: 100%;
+    height: 500px;
+  }
+  h2 { color: #ffffff; font-family: ‘Raleway’,sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; }

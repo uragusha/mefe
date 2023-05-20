@@ -1,0 +1,202 @@
+button {
+    margin-right: 9%;
+  }
+  @import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+
+  body {
+    background-image: url('ghoul3.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 1;
+  }
+
+.header{
+position: relative;
+height: 100px; /* задайте высоту для контейнера навбара */
+}
+header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* установите z-index для изображения, чтобы оно было выше навбара */
+  }
+  @media screen and (min-width: 768px) {
+  .card .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+  header {
+    background-image: url(ghoul2.jpg);
+    padding: 120px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+
+  }
+
+.navbar
+{
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.navbar .container-fluid{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end ;
+
+}
+.nav-item {
+    justify-content: flex-end ;
+    color:rgb(255, 255, 255);
+
+}
+
+.navbar-menu li a{
+    display: inline-block;
+    color: rgb(255, 250, 250);
+    opacity: 0.6;
+    text-decoration: none;
+    padding: 30px;
+    margin-right: 50px;
+
+
+}
+.navbar-menu li a:hover{
+    opacity:1;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 65px;
+    font-weight: bold;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    align-items: center;
+    justify-content: flex-start;
+    margin-left:60px;
+}
+.navbar-brand:hover{
+    color:rgb(255, 80, 109);
+    transiiton: all .07s ease-in-out;
+}
+.navbar-wrap{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: -4px;
+    margin-right: -4px;
+    z-index:2;
+
+
+}
+section {
+    position: relative;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 20px;
+    height: 100%;
+    width: 10px;
+    background-color: #000;
+  }
+  
+  section::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    height: 100%;
+    width: 10px;
+    background-color: #000;
+  }
+  @media screen and (max-width: 650px) {
+    .section:before{
+        width: none;
+    }
+    .section:after{
+        width: none;
+    };}
+    .stroka{
+            text-align: center;
+    }
+p {
+    color: rgb(255, 255, 255);
+}
+
+.nav-link {
+    color:rgb(1, 2, 2);
+}
+
+.navbar-nav .nav-link.active {
+    color:rgb(255, 251, 251);
+    margin-left:75px;
+    margin-right: 40px;;
+
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(118, 55, 235);
+}
+footer {
+    position: flex;
+    bottom: 0;
+    width: 100%;
+    color: rgb(253, 253, 253);
+    z-index: 1;
+
+  }
+  .btn-outline-primary {
+    background: linear-gradient(270deg, #00009c 0%, #000000 100%);
+
+}
+.footer-text {
+    color: rgb(255, 255, 255);
+    margin: auto auto;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card{
+    width: 200px;
+    height: 400px;
+    background-color: black;
+    border-radius: 20%;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;    
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px; /* задаем максимальную ширину */
+}
+
+
+.card-title{
+    color:azure;
+}
+h1 { color: #ffffff; font-family: ‘Raleway’,sans-serif; font-size: 50px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; }
